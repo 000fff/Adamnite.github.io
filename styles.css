@@ -19,6 +19,14 @@ body {
     height:100vh;
 }
 
+.imgdesktop {
+    background-image: url(AdamniteClient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 100%;
+   height: 400px;
+}
+
 html {
     background-color: var(--primary);
     color:var(--primary);
@@ -268,7 +276,7 @@ body {
 }
 
 
-.whitepaper-button {
+.whitepaper-button, .align-center a {
     margin-top: 16px;
     width: 219px;
     height: 48px;
@@ -289,7 +297,17 @@ body {
 
 }
 
-.whitepaper-button:hover {
+.align-center {
+    width: 100%;
+    margin: 40px auto 24px auto;
+    text-align: center;
+}
+
+.align-center a {
+   padding: 12px 32px;
+}
+
+.whitepaper-button:hover, .align-center a:hover {
     cursor: pointer;
     background-color: white;
     color: var(--primary)!important;
